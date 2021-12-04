@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.body-backg {
+    background-color: rgb(168, 14, 240);
+}
+
+.grid-center{
+    width: 100vw;/*ancho del contenedor body. 100vw indica que el ancho body sera del tamaño completo de la pantalla*/
+    height: 100vh;/*alto del contenedor body. 100vh indica que el alto del body sera del tamaño completo de la pantalla*/
+    display:flex;
+    justify-content:center;/*posiciona un contenedor con sus elementos en el eje horizontal*/
+    align-items:center;/*posiciona un contenedor con sus elementos en el eje vertical*/
+    
+}
+
+.watch-container{
+    background-color: rgb(52, 59, 51);
+    padding: 50px;
+    border-radius: 15px;
+}
+
+
+#tablero{
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px
+}
+
+.watch-buttons{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+}
+
+#play{
+border-radius: 15px;
+background-color: rgb(0, 25, 251);
+color: aliceblue;
+}
+#reset{
+border-radius: 15px;
+background-color: rgb(255, 60, 0);
+color: aliceblue;
+}
