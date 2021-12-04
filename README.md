@@ -4,3 +4,6 @@ tecnologias usadas:
 - css
 - html
 
+link para ver el cronometro: 
+-  https://fabio-andres.github.io/cronometro/
+
