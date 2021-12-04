@@ -1,2 +1,6 @@
-# cronometro.github.io
-cronometro
+# cronometro
+tecnologias usadas:
+- javascript
+- css
+- html
+
